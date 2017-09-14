@@ -1,1 +1,3 @@
 rootProject.name = 'zeppelin-nutshell'
+include 'zeppelin-server'
+

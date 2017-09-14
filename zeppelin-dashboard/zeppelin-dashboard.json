@@ -1,0 +1,8 @@
+{
+  "type": "VISUALIZATION",
+  "name": "zeppelin_dashboard",
+  "description": "Zeppelin Dashboard",
+  "artifact": "./zeppelin-dashboard",
+  "license": "Apache-2.0",
+  "icon": "<i class='fa fa-bar-chart rotate90flipX'></i>"
+}

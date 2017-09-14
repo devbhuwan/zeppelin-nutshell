@@ -1,0 +1,11 @@
+apply plugin: "org.springframework.boot"
+apply plugin: "war"
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter') {
+        exclude group: 'org.slf4j', module: 'log4j-over-slf4j'
+    }
+    compile([
+            libs.zeppelinServer
+    ])
+}

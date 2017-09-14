@@ -1,0 +1,12 @@
+{
+  "name": "zeppelin_dashboard",
+  "description": "Zeppelin Dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bhuwan Prasad Upadhyay",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "zeppelin-tabledata": "*",
+    "zeppelin-vis": "*"
+  }
+}

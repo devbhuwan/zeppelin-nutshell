@@ -19,3 +19,5 @@ hs_err_pid*
 **/.idea/
 !/gradle/wrapper/gradle-wrapper.jar
 /spark-warehouse/
+/zeppelin-dashboard/package-lock.json
+/zeppelin-dashboard/node_modules/

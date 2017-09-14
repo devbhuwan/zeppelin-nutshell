@@ -1,0 +1,12 @@
+mysql:
+  image: mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=admin
+  ports:
+    - 13306:3306
+zeppelin:
+  image: apache/zeppelin:0.7.2
+  ports:
+    - 8885:8080
+  links:
+    - mysql
